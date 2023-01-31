@@ -65,7 +65,7 @@ library(lubridate)
 #          remote_path = "RawData")
 
 #### Load data ####
-
+#This code loads data from your computer, use the code above if you want to make sure it is the updated data from OSF.
 Sib_pro_germ <- read.delim("data/INCLINE_Germination_Seedling_Experiment_Data_SP.csv", sep = ";", dec = ".")
 Ver_alp_germ <- read_delim("data/INCLINE_Germination_Seedling_Experiment_Data_Va.csv")
 comment_dict_VA <- read_delim("data/comment_dictionary_VA.csv", delim = ";")
